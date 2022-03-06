@@ -29,7 +29,7 @@ export const Search = () => {
      onChange={(e)=>setText(e.target.value)}
      />  
      {text && (
-        <button type='button' className=' text-red-500 text-2xl text-gray-500 ' onClick={()=> setText("")}>
+        <button type='button' className=' text-red-900 text-2xl  bg-red-500 px-2 mx-2  border rounded-full ' onClick={()=> setText("")}>
            X
         </button>
       )}

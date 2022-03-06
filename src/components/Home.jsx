@@ -1,25 +1,16 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 
 export const Home = () => {
 
 
-  
-  
-
-   let randi = Math.floor(Math.random() * 23);
-   let randy = Math.floor(Math.random() * 3);
-
-  
-  
-   //let newimage = "../islamicImg/" + rand + ".jpg";
-   let imagesource = `https://islamkidunya.com/wp-content/uploads/2020/02/${randi}-${randy}.jpg`
-
   return (
-    <div className='h-screen text-center  text-lg w-screen flex justify-center flex-col'>
-    <h1 className='my-20 '>✨ Learn About Quran ❤</h1>
-    <img src={imagesource} alt="" className='w-64  border mb-10 rounded-full m-auto'/>
+    <div className='h-screen text-center  text-lg '>
+    <Fade bottom>
+    <h1 className='mt-96 text-3xl mb-36'>✨ Learn About <span className='text-green-400 underline font-bold dark:text-red-400'> Quran </span> ❤</h1>
+    </Fade>
 
-    
+  
     </div>
   )
 }

@@ -6,7 +6,7 @@ export const InfoQuran = () => {
     <div className='overflow-hidden'>
      
      <div className='w-screen text-center p-5 my-20'>
-       <h1 className='text-lg  font-mono '>Info About Quran</h1>
+       <h1 className='text-3xl  font-mono '>Info About <span className='text-green-400 underline font-bold dark:text-red-400'>Quran</span></h1>
      </div>
      
     <div className='flex justify-center flex-wrap'>
