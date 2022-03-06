@@ -96,5 +96,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 6e2f57fd7057ef6e223fb2764a95f200fcaca8de
